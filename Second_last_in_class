@@ -1,0 +1,43 @@
+# Write a python code to print second last student in class by grades from listed pair of names and scores of students
+
+def second_last():
+    n = int(input())
+    
+    students = []
+    for s in range(n):
+        name = input()
+        score = float(input())
+        students.append([name,score])
+    students.sort(key= lambda x: (x[1],x[0]))
+    for i in range(1,n):
+        if students[i][1] > students[0][1]:
+            second_lowest = students[i][1]
+            break
+    for student in students:
+        if student[1] == second_lowest:
+            print(student[0])
+            
+second_last()
+
+# Sample input :
+
+# 5
+# Harry
+# 37.21
+# Berry
+# 37.21
+# Tina
+# 37.2
+# Akriti
+# 41
+# Harsh
+# 39
+
+# Sample output :
+
+# Berry
+# Harry
+    
+
+
+
