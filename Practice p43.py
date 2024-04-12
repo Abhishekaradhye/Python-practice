@@ -39,5 +39,5 @@ print(nums)
 
 result = pairs_with_sum(nums, val)
 
-print("List all pairs of the said list whose sum equals to", val)
+print("/nList all pairs of the said list whose sum equals to", val)
 print(result) 
