@@ -1,6 +1,6 @@
 # Write a Python program to find the number of notes (Samples of notes: 10, 20, 50, 100, 200, 500) against an amount.
 
-def how_many_notes(amount):
+def how_many_notes(amount)"
     notes_available = [500, 200, 100, 50, 20, 10]
     number_of_notes = {}
     for note in notes_available:
