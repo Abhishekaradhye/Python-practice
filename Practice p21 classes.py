@@ -3,7 +3,7 @@ class cricketers:
 Virat = cricketers()
 Rohit = cricketers()
 
-Virat.fname = 'Abhishek'
+Virat.fname = 'Virat'
 Virat.lname = 'Kohli'
 Virat.salary = '70000000'
 
